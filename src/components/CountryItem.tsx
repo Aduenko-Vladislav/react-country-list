@@ -15,8 +15,8 @@ const CountryItem = ({
       <span className="col-2 mx-5 text-left">{name}</span>
       <span className="col-2 text-left">{capital}</span>
       <span className="col-2 text-left">{region}</span>
-      <Badge color={Color.Primary} type={"area"} value={area} />
-      <Badge color={Color.Secondary} type={"population"} value={population} />
+      <Badge color={Color.Primary} type="area" value={area} />
+      <Badge color={Color.Secondary} type="population" value={population} />
     </li>
   );
 };

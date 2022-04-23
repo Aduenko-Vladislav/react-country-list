@@ -1,4 +1,4 @@
-export interface ICountry {
+ interface ICountry {
   area: number;
   capital: string;
   name: string;
@@ -7,7 +7,7 @@ export interface ICountry {
   region: string;
 }
 
-export const enum Color {
+ const enum Color {
   Primary = "primary",
   Secondary = "secondary",
   Success = "success",
@@ -18,4 +18,7 @@ export const enum Color {
   Dark = "dark",
 }
 
-export type BadgeLabel = "area" | "population";
+ type BadgeLabel = "area" | "population";
+
+export { Color };
+export type { ICountry, BadgeLabel };
