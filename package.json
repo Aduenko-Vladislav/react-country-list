@@ -1,6 +1,7 @@
 {
   "name": "hw-contieslist",
   "version": "0.1.0",
+  "homepage": "https://aduenko-vladislav.github.io/react-country-list/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -20,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "gh-pages": "^3.2.3"
   }
 }
